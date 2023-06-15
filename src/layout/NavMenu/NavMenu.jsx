@@ -1,12 +1,11 @@
 import { Navbar, Container, Nav } from "react-bootstrap"
 import { HashLink } from "react-router-hash-link";
-import { Link } from "react-router-dom"
+import "./NavMenu.css"
 export default function NavMenu() {
     return(
-        <Navbar fixed="top" bg="danger" variant="dark" expand="md">
+        <Navbar className="navmenu" fixed="top"  expand="md">
         <Container>
         <HashLink to="/#home">Camila</HashLink>
-
           <Navbar.Toggle aria-controls="navbar-nav" />
           <Navbar.Collapse id="navbar-nav">
             <Nav className="ms-auto"> 
