@@ -1,3 +1,13 @@
 .navmenu{
-    background-color: rgba(250, 255, 240, 0.928);
+    background-color: rgba(249, 249, 249, 0.928);
+}
+
+.link {
+    color: rgb(56, 56, 56);
+    padding-inline: 50px;
+    text-decoration: none;
+}
+
+.dark-mode-button{
+   margin-left: 50px;
 }
