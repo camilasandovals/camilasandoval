@@ -5,7 +5,7 @@ import "./Certificates.css"
 
 export default function Certificates() {
     return(
-        <Container id="projects">
+        <Container id="certificates">
             <h1>Certificates</h1>
             <Row className="m-4 justify-content-center" >
                 {

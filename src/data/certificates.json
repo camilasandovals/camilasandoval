@@ -14,27 +14,19 @@
   
     {
       "id": 203, 
-      "name": "css"
+      "name": "Figma for UX design",
+      "link": "https://www.linkedin.com/learning/certificates/916a2eaa7fe3d213cfd955c5791eeac32fe0310d171f7dc8a8ebd7952ce643ab"
     },
   
     {
       "id": 204, 
-      "name": "html"
+      "name": "User Experience for Web Design",
+      "link": "https://www.linkedin.com/learning/certificates/6b8247fcf357da552506513421641b9ca9cf7a175dbe513eb5e03f5ea6111297"
     },
   
     {
       "id": 205, 
-      "name": "Create a Brand Strategy",
-      "link": "https://www.linkedin.com/learning/certificates/33638b89db8c6244b5ec93d2cdaee50682b90ff15c4c47815a677b6190800374"
-    },
-  
-    {
-      "id": 206, 
-      "name": "mongo"
-    },
-  
-    {
-      "id": 207, 
-      "name": "react"
+      "name": "How To Plan Your Website",
+      "link": "https://www.linkedin.com/learning/certificates/6350c7ac47e9efdb6d5533e8ad7ba11cc1fb898bcd4272a7c9b0b3c7d02e690c"
     }
 ]  

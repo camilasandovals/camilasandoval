@@ -5,6 +5,6 @@
 
 .skills-icons:hover{
     filter: drop-shadow(1px 1px 18px rgba(176, 178, 255, 0.919));
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 0.8s ease-in-out;
 }
