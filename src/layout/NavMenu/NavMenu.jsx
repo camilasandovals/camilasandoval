@@ -14,7 +14,7 @@ export default function NavMenu() {
               <HashLink className="link" to="/#projects">PROJECTS</HashLink>
               <HashLink className="link" to="/#skills">SKILLS</HashLink>
               <HashLink className="link" to="/#certificates">CERTIFICATES</HashLink>
-              {/* <button className="dark-mode-button">Dark Mode</button> */}
+             
             </Nav>
           </Navbar.Collapse>
         </Container>

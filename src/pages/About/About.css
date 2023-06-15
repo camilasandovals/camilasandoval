@@ -1,5 +1,5 @@
 .about-container{
-    padding-top: 30px;
+    padding-top: 40px;
     justify-content: center;
 }
 
@@ -9,8 +9,8 @@
 }
 
 .about-text-container{
-    margin-top: 45px;
-    
+    margin-top: 25px !important;
+    padding-left: 35px !important;
 }
 .icons-container{
     padding-top: 30px;
