@@ -25,7 +25,7 @@ export default function Home() {
                 </div>
                 <div className="button-class d-none d-md-block">
                     <a href="mailto:csandoval.eng@gmail.com">
-                    <Button  variant="primary">Get in touch</Button>
+                    <button   className="touch">Get in touch!</button>
                     </a>
                 </div>
         </section>      

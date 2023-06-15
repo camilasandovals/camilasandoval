@@ -5,7 +5,9 @@
         "skills": ["JavaScript","MongoDB","NodeJS","HTML","CSS", "Express", "Bootstrap", "AntDesign", "AWS"],
         "cover": "https://user-images.githubusercontent.com/83136741/241110923-c0b23e04-5786-45ae-a39d-42c33021cf10.png",
         "website":"https://zerinlabs.com",
-        "about": "Full stack app where users can perform full CRUD on their medications and user account. Deployed on AWS."
+        "about": "Full-Stack app where users can perform full CRUD on their medications and user account. Deployed on AWS.",
+        "about2": "React Full-Stack App"
+        
     },
 
     {
@@ -14,7 +16,8 @@
         "skills": [],
         "cover": "https://github.com/camilasandovals/bass-player-web-portfolio/blob/main/src/images/screen1.png?raw=true",
         "website":"https://camilasandovals.github.io/bass-player-web-portfolio/",
-        "about": "A visually appealing portfolio website developed using HTML5 and CSS3 to leave a lasting impression on visitors."
+        "about": "A visually appealing portfolio website developed using HTML5 and CSS3 to leave a lasting impression on visitors.",
+        "about2": "HTML & CSS website"
     },
     
     {
@@ -23,7 +26,8 @@
         "skills": ["JavaScript","Firebase","NodeJS","HTML","CSS", "Express", "AntDesign"],
         "cover": "https://github.com/camilasandovals/much-todo-web/raw/main/public/images/screen.png",
         "website":"https://much-todo-cs.web.app",
-        "about": "Full stack app where users can perform full CRUD, login, sign up, and authenticated for enhanced security."
+        "about": "Full stack app where users can perform full CRUD, login, sign up, and authenticated for enhanced security.",
+        "about2": "React Full-Stact App"
     }
     ,
     {
@@ -32,7 +36,8 @@
         "skills": ["HTML","CSS"],
         "cover": "https://github.com/camilasandovals/bluenight-in-seoul-clock/raw/main/src/images/screen.png",
         "website":"https://bluenight-clock-cs.web.app/",
-        "about": "A beautifully designed website created using HTML5 and CSS3 that dynamically fetches and displays the current time."
+        "about": "A beautifully designed website created using HTML5 and CSS3 that dynamically fetches and displays the current time.",
+        "about2": "HTML & CSS website"
     }
     ,
     {
@@ -41,16 +46,18 @@
         "skills": ["JavaScript","HTML", "CSS", "React", "Bootstrap"],
         "cover": "https://github.com/camilasandovals/quiz-app/raw/main/public/images/screen.png",
         "website":"https://quiz-app-camila.web.app",
-        "about": "App that simulates a quiz and gives a result to the user. Built using hooks in React. Gets the information from a JSON file."
+        "about": "App that simulates a quiz and gives a result to the user. Built using hooks in React. Gets the information from a JSON file.",
+        "about2": "Front-end React App"
     }
     ,
     {
         "id":"5",
-        "name":"ChatGPT Therapy",
+        "name":"AI Therapy",
         "skills": ["JavaScript","NodeJS","HTML","CSS", "Express", "AntDesign"],
         "cover": "https://github.com/camilasandovals/chatgpt-web-app/raw/main/public/images/screen2.png",
-        "website":"",
-        "about": "A web app built in React and connected to ChatGPT to simulate a real human therapist."
+        "website":"Full Stack App conected to ChatGPT API",
+        "about": "A web app built in React and connected to ChatGPT to simulate a real human therapist.",
+        "about2":"Full Stack App - ChatGPT API"
     }
     ,
     {
@@ -59,7 +66,8 @@
         "skills": ["JavaScript","NodeJS","HTML","CSS","React", "Bootstrap"],
         "cover": "https://github.com/camilasandovals/recipes-app/raw/main/public/images/screen.png",
         "website":"https://camilasandovals.github.io/recipes-app/",
-        "about": "Front-end app that gets the information from a built JSON file. Implements hooks to see the ingredients of the recipes."
+        "about": "Front-end app that gets the information from a built JSON file. Implements hooks to see the ingredients of the recipes.",
+        "about2": "React App - .JSON"
     }
     ,
   
@@ -69,7 +77,8 @@
         "skill": [""],
         "cover": "https://github.com/camilasandovals/js-codice-boca/raw/main/assets/readme.png",
         "website":"https://codice-boca-cs.web.app",
-        "about": "A React application that efficiently retrieves and displays data from a simulated restaurant menu API."
+        "about": "A React application that efficiently retrieves and displays data from a simulated restaurant menu API.",
+        "about2": "React App - External API"
     }
     ,
     {
@@ -78,7 +87,8 @@
         "skill": ["JavaScript","HTML","CSS", "React"],
         "cover": "https://user-images.githubusercontent.com/83136741/232336067-1c404508-1d81-4f1c-8ab4-1d2618ed26df.png",
         "website":"https://camilasandovals.github.io/react-counter-app/",
-        "about": "An app that showcases the useState() hook by using a counter that increments and decrements."
+        "about": "An app that showcases the useState() hook by using a counter that increments and decrements.",
+        "about2": "Front-end React App."
     },
     {
         "id":"10",
@@ -86,6 +96,7 @@
         "skill": ["JavaScript","HTML", "React"],
         "cover": "https://user-images.githubusercontent.com/83136741/232942198-d80a603d-7558-44f1-99f3-e39a55707feb.png",
         "website":"https://wine-list-cs.web.app",
-        "about": "A React application that emulates a wine catalog, fetching and presenting data from an external API"
+        "about": "A React application that emulates a wine catalog, fetching and presenting data from an external API",
+        "about2": "React App - External API"
     }
 ]

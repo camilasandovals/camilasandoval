@@ -3,7 +3,8 @@
     width: 20rem;
     box-shadow: -1px 1px 10px rgba(0, 0, 0, 0.331);
     filter: drop-shadow(-1px 1px 10px rgba(180, 183, 255, 0.629));
-    margin: 0.8rem;
+    margin: 1.5em;
+    margin-top: 3.5em;
     background-color: rgba(252, 250, 248);
 
   }
@@ -11,9 +12,10 @@
 .card-wrapper:hover{
     box-shadow: -1px 1px 10px rgba(52, 28, 71, 0.91);
     filter: drop-shadow(-1px 1px 10px rgba(127, 88, 151, 0.629));
+    transition: 0.5s ease-in-out;
+    transform: scale(1.01);
 }
   .card-image {
-    top: 10%;
     left: 35%;
     height: 60%;
     width: 20rem;
@@ -21,7 +23,7 @@
   }
 
   .card-content {
-    padding-top: 10%;
+    padding-top: 6.5%;
     width: 100%;
     bottom: 0;
     left: 0;
@@ -31,3 +33,7 @@
     padding-left: 2rem;
     background-color: rgba(252, 250, 248, 0.758);
   }
+
+.links-cards {
+  text-decoration: none;
+}

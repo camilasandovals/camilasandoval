@@ -19,13 +19,13 @@ export default function About() {
                 <p>I love learning from and working with others while creating amazing projects. 🚀</p>
                 <div className="icons-container">
                     <a className="icon" href="https://github.com/camilasandovals" target="_blank" style={{ marginRight: '50px' }}>
-                    <Github size={40} color="#800080" />
+                    <Github size={40} color="#6b0080" />
                     </a>
                     <a className="icon" href="https://www.linkedin.com/in/camilasandovals/" target="_blank" style={{ marginRight: '50px' }}>
-                    <Linkedin size={40} color="#800080" />
+                    <Linkedin size={40} color="#6b0080" />
                     </a>
                     <a className="icon" href="https://www.instagram.com/foreigncoders/" target="_blank">
-                    <Instagram size={40} color="#800080" />
+                    <Instagram size={40} color="#6b0080" />
                     </a>
                         {/* <Button style={{marginLeft:80 }} variant="primary">Hire me</Button> */}
                 </div>

@@ -1,6 +1,6 @@
 .navmenu{
     background-color: rgba(249, 249, 249, 0.928);
-    filter: drop-shadow(1px 1px 10px rgba(172, 175, 255, 0.919));
+    filter: drop-shadow(1px 3px 15px rgba(172, 175, 255, 0.919));
 }
 
 .link {
@@ -14,5 +14,7 @@
 }
 
 .link:hover{
-    color: #0D6EFD;
+    color: #6b0080;
+    font-weight: 600;
+    transition: 0.5s ease-in-out;
 }

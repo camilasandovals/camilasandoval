@@ -1,0 +1,10 @@
+.skills-icons{
+    filter: drop-shadow(1px 1px 8px rgba(188, 190, 255, 0.919));
+    padding: 8px;
+}
+
+.skills-icons:hover{
+    filter: drop-shadow(1px 1px 18px rgba(176, 178, 255, 0.919));
+    transform: scale(1.1);
+    transition: 0.8s ease-in-out;
+}

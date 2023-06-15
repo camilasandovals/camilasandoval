@@ -19,15 +19,15 @@
 }
 
 .icon{
-    filter: drop-shadow(1px 1px 8px rgba(188, 190, 255, 0.919));
+    filter: drop-shadow(1px 1px 5px rgba(188, 190, 255, 0.919));
 }
 
 .icon:hover {
     color: rgba(255, 255, 255, 0.876);
     transform: scale(1.2);
-    filter: drop-shadow(1px 1px 20px rgba(84, 58, 255, 0.919));
-    z-index: 999;
-    
+    filter: drop-shadow(1px 1px 10px rgba(101, 104, 147, 0.623));
+    transition: 0.2s ease-in-out;
+
 }
 
 @media (max-width: 730px) { 
