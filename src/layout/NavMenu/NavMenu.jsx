@@ -3,12 +3,13 @@ import { HashLink } from "react-router-hash-link";
 import "./NavMenu.css"
 export default function NavMenu() {
     return(
-        <Navbar className="navmenu" fixed="top"  expand="md">
+        <Navbar className="navmenu" fixed="top"  expand="lg">
         <Container>
-        <HashLink to="/#home"><img src="images/CS.png" alt="camila sandoval logo" height={40}/></HashLink>
+        {/* <HashLink to="/#home"><img src="images/CS.png" alt="camila sandoval logo" height={40}/></HashLink> */}
           <Navbar.Toggle aria-controls="navbar-nav" />
           <Navbar.Collapse id="navbar-nav">
             <Nav className="m-auto"> 
+              <HashLink className="link" to="/#home">HOME</HashLink>
               <HashLink className="link" to="/#about">ABOUT</HashLink>
               <HashLink className="link" to="/#projects">PROJECTS</HashLink>
               <HashLink className="link" to="/#skills">SKILLS</HashLink>

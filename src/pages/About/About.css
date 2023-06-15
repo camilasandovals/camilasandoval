@@ -1,0 +1,38 @@
+.about-container{
+    padding-top: 30px;
+    justify-content: center;
+}
+
+.about-image-container{
+    filter: drop-shadow(1px 1px 8px rgba(172, 175, 255, 0.919));
+    padding-bottom: 20px;
+}
+
+.about-text-container{
+    margin-top: 45px;
+    
+}
+.icons-container{
+    padding-top: 30px;
+    /* padding-left: 5px; */
+    text-align: center;
+}
+
+.icon{
+    filter: drop-shadow(1px 1px 8px rgba(188, 190, 255, 0.919));
+}
+
+.icon:hover {
+    color: rgba(255, 255, 255, 0.876);
+    transform: scale(1.2);
+    filter: drop-shadow(1px 1px 20px rgba(84, 58, 255, 0.919));
+    z-index: 999;
+    
+}
+
+@media (max-width: 730px) { 
+    #about{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}

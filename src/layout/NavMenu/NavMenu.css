@@ -1,5 +1,6 @@
 .navmenu{
     background-color: rgba(249, 249, 249, 0.928);
+    filter: drop-shadow(1px 1px 10px rgba(172, 175, 255, 0.919));
 }
 
 .link {
@@ -10,4 +11,8 @@
 
 .dark-mode-button{
    margin-left: 50px;
+}
+
+.link:hover{
+    color: #0D6EFD;
 }

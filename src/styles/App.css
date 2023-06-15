@@ -1,15 +1,17 @@
 h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: clamp(25px, 10vw, 50px); 
     font-weight: 800;
     color: #800080;
+    filter: drop-shadow(1px 1px 5px rgba(198, 200, 255, 0.919));
 }
 
 .h1-name{
-    font-size: 125px;
+    font-size: clamp(70px, 10vw, 125px);
     font-weight: 900;
     color: #FF479A;
 }
+
 h2 {
     font-size: 40px;
     font-weight: 700;
@@ -17,7 +19,7 @@ h2 {
 }
 
 h3 {
-    font-size: 28px;
+    font-size: clamp(20px, 1.5em, 28px);
     font-weight:500;
     color: #262626;
 }
@@ -41,61 +43,21 @@ span{
     padding: 70px 110px 0px 110px;
 }
 
-.home-info{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.home-circle{
-    position: absolute;
-    left: 24%;
-    top:11.5%;
+#about {
+    width: 100%;
+    padding-top: 70px;
     
 }
 
-.home-profile-picture{
-    position: absolute;
-    left: 32.5%;
-    top:5.1%;
-}
-
-#about {
-    width: 100%;
-    height: 100vh;
-    padding-top: 70px;
-    background-color: bisque;
-}
-
-.about-container{
-    padding-top: 30px;
-}
-
-.icons-container{
-    padding-top: 30px;
-    padding-left: 5px;
-}
-
-.icon:hover {
-    color: rgba(255, 255, 255, 0.876);
-    transform: scale(1.2);
-    filter: drop-shadow(1px 1px 20px rgba(172, 175, 255, 0.919));
-    z-index: 999;
-}
-
 #projects {
-    width: 100%;
-    height: 100vh;
     padding-top: 70px;
-    background-color: blueviolet;
+    
 }
 
 #skills {
     width: 100%;
     height: 100vh;
     padding-top: 70px;
-    background-color: greenyellow;
 }
 
 #certificates {

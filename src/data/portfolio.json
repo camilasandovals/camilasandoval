@@ -1,16 +1,25 @@
 [
     {
         "id":"1",
-        "name":"ZerinLabs",
+        "name":"Medications App",
         "skills": ["JavaScript","MongoDB","NodeJS","HTML","CSS", "Express", "Bootstrap", "AntDesign", "AWS"],
         "cover": "https://user-images.githubusercontent.com/83136741/241110923-c0b23e04-5786-45ae-a39d-42c33021cf10.png",
         "website":"https://zerinlabs.com",
         "about": "Full stack app where users can perform full CRUD on their medications and user account. Deployed on AWS."
-    }
-    ,
+    },
+
     {
         "id":"2",
-        "name":"Much TODO",
+        "name":"Musician Portfolio",
+        "skills": [],
+        "cover": "https://github.com/camilasandovals/bass-player-web-portfolio/blob/main/src/images/screen1.png?raw=true",
+        "website":"https://camilasandovals.github.io/bass-player-web-portfolio/",
+        "about": "A visually appealing portfolio website developed using HTML5 and CSS3 to leave a lasting impression on visitors."
+    },
+    
+    {
+        "id":"7",
+        "name":"TODO App",
         "skills": ["JavaScript","Firebase","NodeJS","HTML","CSS", "Express", "AntDesign"],
         "cover": "https://github.com/camilasandovals/much-todo-web/raw/main/public/images/screen.png",
         "website":"https://much-todo-cs.web.app",
@@ -18,12 +27,12 @@
     }
     ,
     {
-        "id":"3",
-        "name":"Recipes App",
-        "skills": ["JavaScript","NodeJS","HTML","CSS","React", "Bootstrap"],
-        "cover": "https://github.com/camilasandovals/recipes-app/raw/main/public/images/screen.png",
-        "website":"https://camilasandovals.github.io/recipes-app/",
-        "about": "Front-end app that gets the information from a built JSON file. Implements hooks to see the ingredients of the recipes."
+        "id":"6",
+        "name":"Live Clock",
+        "skills": ["HTML","CSS"],
+        "cover": "https://github.com/camilasandovals/bluenight-in-seoul-clock/raw/main/src/images/screen.png",
+        "website":"https://bluenight-clock-cs.web.app/",
+        "about": "A beautifully designed website created using HTML5 and CSS3 that dynamically fetches and displays the current time."
     }
     ,
     {
@@ -45,29 +54,15 @@
     }
     ,
     {
-        "id":"6",
-        "name":"Live Clock",
-        "skills": ["HTML","CSS"],
-        "cover": "https://github.com/camilasandovals/bluenight-in-seoul-clock/raw/main/src/images/screen.png",
-        "website":"https://bluenight-clock-cs.web.app/",
-        "about": "A beautifully designed website created using HTML5 and CSS3 that dynamically fetches and displays the current time."
-    },
-    {
-        "id":"7",
-        "name":"Jokes App",
-        "skills": ["ReactNative", "CSS", "JavaScript"],
-        "cover": "https://user-images.githubusercontent.com/83136741/235810177-59709ff3-d49e-4009-8ae8-fdc00dd240ae.PNG",
-        "website":"https://github.com/camilasandovals/jokes-app",
-        "about": "A React Native mobile app that utilizes the useEffect and useState hooks to fetch data from a sample API."
-    },
-    {
-        "id":"8",
-        "name":"Musician Portfolio",
-        "skills": [],
-        "cover": "https://github.com/camilasandovals/bass-player-web-portfolio/blob/main/src/images/screen1.png?raw=true",
-        "website":"https://camilasandovals.github.io/bass-player-web-portfolio/",
-        "about": "A visually appealing portfolio website developed using HTML5 and CSS3 to leave a lasting impression on visitors."
-    },
+        "id":"3",
+        "name":"Recipes App",
+        "skills": ["JavaScript","NodeJS","HTML","CSS","React", "Bootstrap"],
+        "cover": "https://github.com/camilasandovals/recipes-app/raw/main/public/images/screen.png",
+        "website":"https://camilasandovals.github.io/recipes-app/",
+        "about": "Front-end app that gets the information from a built JSON file. Implements hooks to see the ingredients of the recipes."
+    }
+    ,
+  
     {
         "id":"9",
         "name":"Codice de Boca",
@@ -75,6 +70,15 @@
         "cover": "https://github.com/camilasandovals/js-codice-boca/raw/main/assets/readme.png",
         "website":"https://codice-boca-cs.web.app",
         "about": "A React application that efficiently retrieves and displays data from a simulated restaurant menu API."
+    }
+    ,
+    {
+        "id":"11",
+        "name":"Counter App",
+        "skill": ["JavaScript","HTML","CSS", "React"],
+        "cover": "https://user-images.githubusercontent.com/83136741/232336067-1c404508-1d81-4f1c-8ab4-1d2618ed26df.png",
+        "website":"https://camilasandovals.github.io/react-counter-app/",
+        "about": "An app that showcases the useState() hook by using a counter that increments and decrements."
     },
     {
         "id":"10",
@@ -83,23 +87,5 @@
         "cover": "https://user-images.githubusercontent.com/83136741/232942198-d80a603d-7558-44f1-99f3-e39a55707feb.png",
         "website":"https://wine-list-cs.web.app",
         "about": "A React application that emulates a wine catalog, fetching and presenting data from an external API"
-    },
-    {
-        "id":"11",
-        "name":"Counter App",
-        "skill": ["JavaScript","HTML","CSS", "React"],
-        "cover": "https://user-images.githubusercontent.com/83136741/232336067-1c404508-1d81-4f1c-8ab4-1d2618ed26df.png",
-        "website":"https://camilasandovals.github.io/react-counter-app/",
-        "about": "An app that showcases the useState() hook by using a counter that increments and decrements."
-    },    
- 
-    {
-        "id":"12",
-        "name":"Lunch Spot",
-        "skill": ["ReactNative", "CSS", "JavaScript"],
-        "cover": "https://user-images.githubusercontent.com/83136741/235789360-9fa834b6-503a-4769-bfb2-9b056817f48a.PNG",
-        "website":"https://github.com/camilasandovals/lunch-spot",
-        "about": "A React Native mobile application that retrieves and displays data of various restaurants."
     }
-
 ]

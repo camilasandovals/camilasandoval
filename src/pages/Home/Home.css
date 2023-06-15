@@ -1,0 +1,53 @@
+
+.home-info{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+}
+
+.home-circle{
+    position: absolute;
+    left: 27%;
+    top:11.5%;
+    filter: drop-shadow(1px 1px 10px rgba(172, 175, 255, 0.919));
+    z-index: 0;
+}
+
+.home-profile-picture{
+    position: absolute;
+    left: 35.5%;
+    top:6.2%;
+    filter: drop-shadow(1px 1px 20px rgba(172, 175, 255, 0.919));
+    z-index: 0;
+}
+
+.button-class {
+    margin-top: 30px;
+    position: absolute;
+    left: 77%;
+    top:70.1%;
+}
+
+@media (max-width: 730px) { 
+    .home-profile-picture img{
+        padding-top: 140px;
+        
+    }
+    .home-profile-picture{
+        position: absolute;
+        left: 4%;
+        top:12%;
+        
+    }
+    
+    .home-info{
+        padding-top: 30%;
+        justify-content: start;
+    }
+
+    #home{
+        justify-content: center;
+    }
+}
