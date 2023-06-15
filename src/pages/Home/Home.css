@@ -9,7 +9,7 @@
 
 .home-circle{
     position: absolute;
-    left: 27%;
+    left: 26%;
     top:11.5%;
     filter: drop-shadow(1px 1px 10px rgba(172, 175, 255, 0.919));
     z-index: 0;
@@ -17,10 +17,10 @@
 
 .home-profile-picture{
     position: absolute;
-    left: 35.5%;
+    left: 35%;
     top:6.2%;
     filter: drop-shadow(1px 1px 20px rgba(172, 175, 255, 0.919));
-    z-index: 0;
+    z-index: 1;
 }
 
 .button-class {
@@ -64,8 +64,8 @@
     }
     .home-profile-picture{
         position: absolute;
-        left: 4%;
-        top:12%;
+        left: 5%;
+        top:11.8%;
         
     }
     

@@ -35,4 +35,9 @@
         padding-left: 50px;
         padding-right: 50px;
     }
+
+    .about-text-container{
+        margin-top: 25px !important;
+        padding-left: 0;
+    }
 }
