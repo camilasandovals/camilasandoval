@@ -20,7 +20,7 @@
     left: 35%;
     top:6.2%;
     filter: drop-shadow(1px 1px 20px rgba(172, 175, 255, 0.919));
-    z-index: 1;
+    z-index: 0;
 }
 
 .button-class {
