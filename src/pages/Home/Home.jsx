@@ -8,26 +8,26 @@ export default function Home() {
       });
 
     return(
-        <section id="home" className="m-0">
-           
-            <Col className="home-info" lg={6} sm={12}>
+        <section id="home">
+            
+                <div className="home-info">
                     <h3>👋 HI, I AM</h3>
                     <h1 className="h1-name">Camila</h1>
                     <h3>A <span>{text}</span>{" "}<span><Cursor /></span></h3>
-                    
-                </Col>
-                <Col className="home-circle d-none d-lg-block">
-                    <img src="images/circle.png" alt="White circle background" height={650} />
-                </Col>
-                <Col className="home-profile-picture" lg={4} sm={12}>
-                    <img src="images/profile.png" alt="Camila Sandoval profile pic"  height={655} />
-                </Col>
-                <Col className="button-class d-none d-lg-block" lg={1}>
+                    <div style={{textAlign:"center"}}>
+                    </div>
+                </div>
+                <div className="home-circle d-none d-lg-block">
+                    <img src="images/circle.png" alt="White circle background" height={660}/>
+                </div>
+                <div className="home-profile-picture">
+                    <img src="images/profile.png" alt="Camila Sandoval profile pic"  height={650}/>
+                </div>
+                <div className="button-class d-none d-lg-block">
                     <a href="mailto:csandoval.eng@gmail.com">
                     <button   className="touch">Get in touch!</button>
                     </a>
-                </Col>
-            
+                </div>
         </section>      
     )
 }

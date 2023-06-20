@@ -16,7 +16,8 @@ h1 {
     /* background: linear-gradient(40deg,  #4d47ff , #ea47ff,  #ff4756 );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; */
-    color: #f53e91
+    color: #f53e91;
+    text-align: left;
 }
 
 h2 {
@@ -48,7 +49,7 @@ span{
     background-repeat: no-repeat;
     overflow: hidden;
     display: flex;
-    padding: 70px 110px 0px 110px;
+    padding: 70px 0px 0px 145px;
 }
 
 #about {
