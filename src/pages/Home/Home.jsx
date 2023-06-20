@@ -17,7 +17,7 @@ export default function Home() {
                     <div style={{textAlign:"center"}}>
                     </div>
                 </div>
-                <div className="home-circle d-none d-lg-block">
+                <div className="home-circle">
                     <img src="images/circle.png" alt="White circle background" height={660}/>
                 </div>
                 <div className="home-profile-picture">

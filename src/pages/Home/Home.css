@@ -59,14 +59,16 @@
     }
   }
 
-@media (max-width: 800px) { 
+@media (max-width: 1000px) { 
     .home-profile-picture img{
         height: 93%;
-        width: max-content;
     }
 
+    .home-circle{
+        display: none;
+    }
     .home-profile-picture {
-        width: 400px;
+        width: 350px;
     }
     
     .home-info{
