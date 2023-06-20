@@ -7,11 +7,11 @@ export default function About() {
         <Container id="about" >
         <h1>About Me</h1>
         <Row className="about-container">
-            <Col className="about-image-container" md={5}>
+            <Col className="about-image-container" lg={5} md={7} xs={8}>
                 <img className="img-fluid" src="/images/cs23.png" alt="Camila Sandoval photograpy" />
             </Col>
             
-            <Col  className="about-text-container" md={5}>
+            <Col  className="about-text-container" lg={5} md={12}  xs={11}>
                 <h3 style={{ color: "#FF479A" }}>A little bit about me</h3>
                 <h2>I am Camila Sandoval</h2>
                 <h3 style={{ color: "gray" }}>An Engineer based in the United States</h3>

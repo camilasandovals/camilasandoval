@@ -9,16 +9,16 @@
 
 .home-circle{
     position: absolute;
-    left: 26%;
-    top:11.5%;
+    left: 35%;
+    top:15%;
     filter: drop-shadow(1px 1px 10px rgba(172, 175, 255, 0.919));
     z-index: 0;
 }
 
 .home-profile-picture{
-    position: absolute;
-    left: 35%;
-    top:6.2%;
+    position: relative;
+
+    top: 9.2%;
     filter: drop-shadow(1px 1px 20px rgba(172, 175, 255, 0.919));
     z-index: 0;
 }
@@ -59,15 +59,15 @@
 
 @media (max-width: 730px) { 
     .home-profile-picture img{
-        padding-top: 140px;
+        height: 80%;
         
     }
-    .home-profile-picture{
-        position: absolute;
-        left: 5%;
-        top:11.8%;
-        
-    }
+    
+    
+    /* .home-circle img{
+        height: 10%;
+    } */
+    
     
     .home-info{
         padding-top: 30px;
