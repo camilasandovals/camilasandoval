@@ -10,7 +10,7 @@ h1 {
 }
 
 .h1-name{
-    font-size: clamp(70px, 10vw, 130px);
+    font-size: clamp(70px, 10vw, 135px);
     font-weight: 900;
     filter: drop-shadow(1px 1px 5px rgba(164, 166, 230, 0.919));
     /* background: linear-gradient(40deg,  #4d47ff , #ea47ff,  #ff4756 );
@@ -27,9 +27,9 @@ h2 {
 }
 
 h3 {
-    font-size: clamp(20px, 1.5em, 28px);
+    font-size: clamp(10px, 4.6vw, 30px);
     font-weight:500;
-    color: rgb(60, 60, 60)
+    color: rgb(80, 90, 90)
 }
 
 p{
@@ -69,7 +69,7 @@ span{
 
 #certificates {
     width: 100%;
-
+    text-align: center;
     padding-top: 70px;
     margin-bottom: 30px !important;
 }

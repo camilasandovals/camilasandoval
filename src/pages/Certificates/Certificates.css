@@ -6,20 +6,14 @@
     margin: 1.5em;
     margin-top: 3.5em;
     background-color: rgba(252, 250, 248);
-
-  }
-  .card-wrapper-cert:hover{
-    box-shadow: -1px 1px 8px rgba(57, 33, 79, 0.428);
-    filter: drop-shadow(-1px 1px 8px rgba(91, 67, 106, 0.45));
-    transition: 0.8s ease-in-out;
-    transform: scale(1.03);
 }
 
-  .card-image-cert {
+.card-image-cert {
     height: 100%;
     width: 18rem;
     filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.053));
-  }
+}
+
 /* 
   .card-content-cert {
     padding-top: 6.5%;
@@ -35,4 +29,35 @@
 
 .links-cards {
   text-decoration: none;
+}
+
+
+.card-wrapper-cert {
+  position: relative;  /* Adjusted to be relative so children can be positioned absolutely. */
+  /* Other styles omitted for brevity */
+}
+
+.hover-content {
+  border: 10px solid rgb(255, 255, 255);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(232, 241, 255, 0.629);
+  color: #ffffff;  /* White text color */
+  opacity: 0;  /* Start invisible */
+  transition: opacity 0.3s;  /* Smoothly transition visibility */
+  font-weight: 200;
+}
+
+.card-wrapper-cert:hover .hover-content {
+  opacity: 1;  /* Fully visible on hover */
+}
+
+.card-wrapper-cert:hover .card-image-cert {
+  display: none;
 }

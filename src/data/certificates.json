@@ -13,12 +13,6 @@
   
   
     {
-      "id": 203, 
-      "name": "Figma for UX design",
-      "link": "https://www.linkedin.com/learning/certificates/916a2eaa7fe3d213cfd955c5791eeac32fe0310d171f7dc8a8ebd7952ce643ab"
-    },
-  
-    {
       "id": 204, 
       "name": "User Experience for Web Design",
       "link": "https://www.linkedin.com/learning/certificates/6b8247fcf357da552506513421641b9ca9cf7a175dbe513eb5e03f5ea6111297"
@@ -28,5 +22,18 @@
       "id": 205, 
       "name": "How To Plan Your Website",
       "link": "https://www.linkedin.com/learning/certificates/6350c7ac47e9efdb6d5533e8ad7ba11cc1fb898bcd4272a7c9b0b3c7d02e690c"
+    }
+
+    ,
+  
+    {
+      "id": 206, 
+      "name": "Ethical Hacking with JavaScript",
+      "link": "https://www.linkedin.com/learning/certificates/75f548df5211147e1f133ccadb21fb10edcec34cc471a11fdcc61d85dc5402da?accountId=0&u=0&success=true&authUUID=tA8NW2dvTiun%2FIwehnK2nw%3D%3D"
+    },
+    {
+      "id": 203, 
+      "name": "Figma for UX design",
+      "link": "https://www.linkedin.com/learning/certificates/916a2eaa7fe3d213cfd955c5791eeac32fe0310d171f7dc8a8ebd7952ce643ab"
     }
 ]  

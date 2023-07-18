@@ -9,10 +9,14 @@
 
 .home-circle{
     position: absolute;
-    left: 30.5%;
-    top:12%;
+    left: 35%;
+    bottom: 0%;
     filter: drop-shadow(1px 1px 10px rgba(172, 175, 255, 0.919));
     z-index: 0;
+}
+
+.home-circle img {
+    height: 85vh;
 }
 
 .home-profile-picture{
@@ -23,12 +27,17 @@
     overflow-x: visible;
     max-width: 100%; /* Adjust the value as per your needs */
     overflow-y: hidden;
+    left: 3%;
+}
+
+.home-profile-picture img{
+    height: 87vh;
 }
 
 .button-class {
     margin-top: 30px;
     position: absolute;
-    left: 70%;
+    left: 75%;
     top:70.1%;
     filter: drop-shadow(1px 1px 5px rgba(107, 110, 173, 0.919));
     animation: moveUpDown 4s infinite alternate;
@@ -36,11 +45,12 @@
 }
 
 .touch{
-    background-color: #ffffff;
-    color: #6b0080;
-    border: 0;
-    padding: 30px;
+    background-color: #6b0080;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 25px;
     font-weight: 700;
+    border: none;
 }
 
 .touch:hover{
