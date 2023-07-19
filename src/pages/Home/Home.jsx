@@ -13,7 +13,7 @@ export default function Home() {
                 <div className="home-info">
                     <h3>👋 HI, I AM</h3>
                     <h1 className="h1-name">Camila</h1>
-                    <h3>A <span>{text}</span><span></span> Developer</h3>
+                    <h3>A <span>Full-Stack </span> Developer</h3>
                     <div style={{textAlign:"center"}}>
                     </div>
                 </div>

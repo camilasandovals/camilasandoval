@@ -1,63 +1,124 @@
 [
     {
         "id":"1",
-        "name":"Medications App",
-        "skills": ["JavaScript","MongoDB","NodeJS","HTML","CSS", "Express", "Bootstrap", "AntDesign", "AWS"],
-        "cover": "https://user-images.githubusercontent.com/83136741/241110923-c0b23e04-5786-45ae-a39d-42c33021cf10.png",
-        "website":"https://zerinlabs.com",
-        "about": "Full-Stack app where users can perform full CRUD on their medications and user account. Deployed on AWS.",
-        "about2": "React Full-Stack App"
-        
+        "name":"BOE Partners",
+        "type": "Full-Stack Development",
+        "skills": ["React", "MongoDB", "GCP", "Mongoose", "NodeJS", "Express", "Bootstrap", "HTML/CSS", "JavaScript"],
+        "cover": "https://private-user-images.githubusercontent.com/83136741/254369906-c55dcc1f-e692-4ec2-b526-887b39c88c89.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2ODk3MDYxODUsIm5iZiI6MTY4OTcwNTg4NSwicGF0aCI6Ii84MzEzNjc0MS8yNTQzNjk5MDYtYzU1ZGNjMWYtZTY5Mi00ZWMyLWI1MjYtODg3YjM5Yzg4Yzg5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzA3MTglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMwNzE4VDE4NDQ0NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQzZjg0MmVlZGJhZjU4MzhlOTQzMjlhYzI4MGQ0MmMxMjM1OWM5NGMzZWZlZjc5MjAwMGZmYjBjNDE2YjhkNzgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.sQrDJyO_ayqofjXu2zAABO12iERyehljEB_lpWpsZQU",
+        "website":"https://boepartners.com",
+        "features": ["Secure user registration and login system using bcrypt for password hashing.", 
+        "User profiles with personalized data and customizable avatars stored in MongoDB", 
+        "JWT used for authorization and session management.",
+        "Full CRUD app, including ability to like each school and store in favorites"],
+        "about": "Filter and register to schools, view upcoming events, read blogs, and access exclusive content. User registration system is integrated, employing bcrypt for password hashing. Registered users can customize their profiles and like schools. Implements session management, authentication, and authorization."
     },
-
     {
         "id":"2",
-        "name":"Musician Portfolio",
-        "skills": [],
-        "cover": "https://github.com/camilasandovals/bass-player-web-portfolio/blob/main/src/images/screen1.png?raw=true",
-        "website":"https://camilasandovals.github.io/bass-player-web-portfolio/",
-        "about": "A visually appealing portfolio website developed using HTML5 and CSS3 to leave a lasting impression on visitors.",
-        "about2": "HTML & CSS website"
-    },
-    
+        "name":"Medications Tracker",
+        "type": "Full-Stack Development",
+        "skills": ["AWS S3/EC2", "React","MongoDB","HTML/CSS, JavaScript", "Express", "NodeJS", "Bootstrap", "Mongoose"],
+        "cover": "https://user-images.githubusercontent.com/83136741/241110923-c0b23e04-5786-45ae-a39d-42c33021cf10.png",
+        "website":"https://zerinlabs.com",
+        "features": [
+            "Secure user registration and login system employing bcrypt for password hashing",
+            "JWT-based authentication and authorization ensuring secure user sessions",
+            "User profile management feature allowing avatar changes and account info editing",
+            "Comprehensive medication tracking system allowing for addition, update, and soft deletion of medication records"
+        ],
+        "about": "It features secure registration and login, facilitated by bcrypt hashing and JWT for session management. User-friendly interface for medication management, history tracking, and profile customization, including avatar changes. Deployed on AWS with EC2 and S3"
+    }
+    ,
     {
         "id":"3",
-        "name":"TODO App",
-        "skills": ["JavaScript","Firebase","NodeJS","HTML","CSS", "Express", "AntDesign"],
-        "cover": "https://github.com/camilasandovals/much-todo-web/raw/main/public/images/screen.png",
-        "website":"https://much-todo-cs.web.app",
-        "about": "Full stack app where users can perform full CRUD, login, sign up, and authenticated for enhanced security.",
-        "about2": "React Full-Stact App"
+        "name":"AI Therapy",
+        "type": "Full-Stack Development",
+        "skills": ["ChatGPT API", "React", "NodeJS", "Bootstrap", "HTML/CSS", "JavaScript", "Express"],
+        "cover": "https://github.com/camilasandovals/chatgpt-web-app/raw/main/public/images/screen2.png",
+        "website":"https://aitherapy.com",
+        "features": [
+            "User-friendly interface that simulates a real human therapist.",
+            "Integration with ChatGPT API to provide AI-driven conversation.",
+            "Built in react with a NodeJS backend and deployed on GCP.",
+            "AI generated images using prompt engineering."
+        ],
+        "about": "Simulates a real human therapist using the ChatGPT API. Provides a user-friendly interface and personalized experiences for users. Deployed on GCP, the app is built in React with a NodeJS backend. The app also features AI-generated images using prompt engineering."
     }
     ,
     {
         "id":"4",
-        "name":"Live Clock",
-        "skills": ["HTML","CSS"],
-        "cover": "https://github.com/camilasandovals/bluenight-in-seoul-clock/raw/main/src/images/screen.png",
-        "website":"https://bluenight-clock-cs.web.app/",
-        "about": "A beautifully designed website created using HTML5 and CSS3 that dynamically fetches and displays the current time.",
-        "about2": "HTML & CSS website"
-    }
-    ,
+        "name":"Tasks Manager",
+        "type": "Full-Stack Development",
+        "skills": ["React", "AntDesign", "Firebase", "NodeJS", "JavaScript", "HTML/CSS", "Express", "GCP"],
+        "cover": "https://github.com/camilasandovals/much-todo-web/raw/main/public/images/screen.png",
+        "website":"https://much-todo-cs.web.app",
+        "features": [
+            "Full CRUD operations for task management.",
+            "User registration and login system.",
+            "Authentication and authorization for enhanced security."
+        ],
+        "about": "Full-stack application that allows users to manage their tasks effectively. The application supports full CRUD operations, enabling users to create, read, update, and delete tasks. It also features a user registration and login system, along with authentication and authorization mechanisms for enhanced security. The application is built using React, AntDesign, Firebase, NodeJS, JavaScript, HTML/CSS, Express, and GCP."
+    }   
+    , 
     {
         "id":"5",
-        "name":"Quiz App",
-        "skills": ["JavaScript","HTML", "CSS", "React", "Bootstrap"],
-        "cover": "https://github.com/camilasandovals/quiz-app/raw/main/public/images/screen.png",
-        "website":"https://quiz-app-camila.web.app",
-        "about": "App that simulates a quiz and gives a result to the user. Built using hooks in React. Gets the information from a JSON file.",
-        "about2": "Front-end React App"
+        "name":"Musician Portfolio",
+        "type": "Front-End Development",
+        "skills": ["HTML/CSS"],
+        "cover": "https://github.com/camilasandovals/bass-player-web-portfolio/blob/main/src/images/screen1.png?raw=true",
+        "website":"https://camilasandovals.github.io/bass-player-web-portfolio/",
+        "features": [
+            "Responsive design that ensures the website looks good on all devices.",
+            "Smooth navigation for a user-friendly experience.",
+            "Showcase of the musician's work, including pictures and videos",
+            "Contact form for easy communication."
+        ],
+        "about": "The Musician Portfolio is a visually appealing website developed using HTML5 and CSS3. It is designed to leave a lasting impression on visitors and showcase the work of a bass player. The website features a responsive design, ensuring it looks good on all devices. It also includes smooth navigation, a showcase of the musician's work, including audio clips and videos, and a contact form for easy communication."
     }
-    ,
+    ,    
     {
         "id":"6",
-        "name":"AI Therapy",
-        "skills": ["JavaScript","NodeJS","HTML","CSS", "Express", "AntDesign"],
-        "cover": "https://github.com/camilasandovals/chatgpt-web-app/raw/main/public/images/screen2.png",
-        "website":"Full Stack App conected to ChatGPT API",
-        "about": "A web app built in React and connected to ChatGPT to simulate a real human therapist.",
-        "about2":"Full Stack App - ChatGPT API"
+        "name":"Live Clock",
+        "type": "Front-End Development",
+        "skills": ["HTML/CSS", "JavaScript"],
+        "cover": "https://github.com/camilasandovals/bluenight-in-seoul-clock/raw/main/src/images/screen.png",
+        "website":"https://bluenight-clock-cs.web.app/",
+        "features": [
+            "Real-time clock that dynamically fetches and displays the current time.",
+            "Beautifully designed interface that is both visually appealing and user-friendly.",
+            "Responsive design ensuring the website looks good on all devices."
+        ],
+        "about": "Live Clock is a beautifully designed website created using HTML5, CSS3, and JavaScript. It features a real-time clock that dynamically fetches and displays the current time. The interface is visually appealing and user-friendly, with a responsive design that ensures the website looks good on all devices."
+    }    
+    ,
+    {
+        "id":"7",
+        "name":"Quiz App",
+        "type": "Front-End Development",
+        "skills": ["JavaScript", "HTML/CSS", "React", "Bootstrap"],
+        "cover": "https://github.com/camilasandovals/quiz-app/raw/main/public/images/screen.png",
+        "website":"https://quiz-app-camila.web.app",
+        "features": [
+            "Interactive quizzes or exams with instant feedback.",
+            "Data fetched from a JSON file for dynamic quiz generation.",
+            "Use of React Hooks for state management and side effects.",
+            "Responsive design ensuring the app looks good on all devices."
+        ],
+        "about": "The Quiz App is an interactive application that simulates a quiz and provides instant feedback to the user. It is built using React Hooks, JavaScript, HTML/CSS, and Bootstrap. The application fetches data from a JSON file to generate dynamic quizzes, providing a unique experience for each user. It also features a responsive design, ensuring the app looks good on all devices."
+    }    
+    ,
+    {
+        "id":"8",
+        "name":"Wine Catalog",
+        "type": "Front-End Development",
+        "skills": ["JavaScript", "HTML", "React"],
+        "cover": "https://user-images.githubusercontent.com/83136741/232942198-d80a603d-7558-44f1-99f3-e39a55707feb.png",
+        "website":"https://wine-list-cs.web.app",
+        "features": [
+            "Interactive catalog of wines fetched from an external API.",
+            "User-friendly interface for easy navigation and exploration of wines.",
+            "Responsive design ensuring the app looks good on all devices."
+        ],
+        "about": "The Wine Catalog is a React application that emulates a wine catalog, fetching and presenting data from an external API. The application provides a user-friendly interface for easy navigation and exploration of a wide variety of wines. It also features a responsive design, ensuring the app looks good on all devices."
     }
     
 ]

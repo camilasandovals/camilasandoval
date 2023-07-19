@@ -8,7 +8,8 @@ export default function Panel({data: {id, name, link}}) {
             <div className="card-wrapper-cert">
                 <img className="card-image-cert" src={`certificates/${id}.jpeg`}/>
                 <div className="hover-content">
-                    <p>Click to Learn More</p>
+                    <span><strong>{name}</strong></span>
+                    <small>Click to Learn More</small>
                 </div>
             </div>
             </a>
