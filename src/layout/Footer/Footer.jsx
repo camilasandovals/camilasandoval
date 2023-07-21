@@ -1,4 +1,4 @@
-import { Github, Instagram, Linkedin } from "react-bootstrap-icons";
+import { EnvelopeFill, Github, Instagram, Linkedin } from "react-bootstrap-icons";
 import { Col, Container, Row } from "react-bootstrap";
 import "./Footer.css"
 
@@ -15,7 +15,7 @@ export default function Footer() {
                     <Linkedin size={18} color="grey" />
                     </a>
                     <a href="https://www.instagram.com/foreigncoders/" target="_blank">
-                    <Instagram size={18} color="grey" />
+                    <EnvelopeFill size={18} color="grey"/>
                     </a>
                         
                 </div>

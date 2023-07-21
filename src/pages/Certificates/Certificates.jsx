@@ -7,8 +7,8 @@ export default function Certificates() {
     return(
         <Container id="certificates">
             <h1>Certificates</h1>
-            {/* <h3 className="mb-4">Click to unfold</h3> */}
-            <Row className="m-3 justify-content-center" >
+            <Row className="mt-4 justify-content-center" >
+            <h4 className="mb-4">Discover more by clicking on each</h4>
                 {
                     data.map( 
                         (element) => (

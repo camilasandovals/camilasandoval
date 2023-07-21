@@ -9,7 +9,6 @@ export default function Panel({data: {id, name, link}}) {
                 <img className="card-image-cert" src={`certificates/${id}.jpeg`}/>
                 <div className="hover-content">
                     <span><strong>{name}</strong></span>
-                    <small>Click to Learn More</small>
                 </div>
             </div>
             </a>

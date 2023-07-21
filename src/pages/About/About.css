@@ -21,10 +21,7 @@
 
 
 .icon:hover {
-    
-    transform: scale(1.2);
-    filter: drop-shadow(1px 1px 10px rgba(101, 104, 147, 0.623));
-    transition: 0.2s ease-in-out;
-
+    transform: scale(1.1);
+    color: #f53e91; 
 }
 

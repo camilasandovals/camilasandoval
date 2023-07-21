@@ -4,7 +4,6 @@
     box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.331);
     filter: drop-shadow(-1px 1px 8px rgba(180, 183, 255, 0.629));
     margin: 1.5em;
-    margin-top: 3.5em;
     background-color: rgba(252, 250, 248);
 }
 
@@ -37,8 +36,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  background-color: rgba(232, 241, 255, 0.629);
-  color: #5d5d5d;  /* White text color */
+  background-color: rgba(225, 221, 229, 0.702);
   opacity: 0;  /* Start invisible */
   transition: opacity 0.3s;  /* Smoothly transition visibility */
   font-weight: 200;

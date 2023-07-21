@@ -7,9 +7,9 @@ export default function Skills() {
     return(
         <Container id="skills">
             <h1>Skills</h1>
-            <Row className="mt-5 justify-content-center">
+            <Row className="mt-4 justify-content-center">
               <Col md={7} className="text-center">
-              <h3 className="mb-4">Just the ones that I practice everyday</h3>
+              <h4 className="mb-4">Just the ones that I practice everyday</h4>
 
               {skillDev.map(
                 (element) => (
