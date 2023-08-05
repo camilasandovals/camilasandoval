@@ -7,7 +7,7 @@ export default function Panel({data: {id, name, cover, website, about, type, ski
     return(
         <Col key={id} className="d-flex justify-content-center" sm={12} md={7} lg={6} xl={4}>
             <div className="card-wrapper">
-                <img className="card-image" src={cover} alt={name}/>
+                <img className="card-image" src={`/images/${cover}.jpg`} alt={name}/>
                 <div className="card-content">
                     <div className="relevant-info">
                     <div >

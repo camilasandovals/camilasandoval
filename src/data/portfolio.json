@@ -4,7 +4,7 @@
         "name":"BOE Partners",
         "type": "Full-Stack Development",
         "skills": ["React", "MongoDB","Mongoose" ,"GCP", "NodeJS", "Express", "Bootstrap", "HTML/CSS", "JavaScript"],
-        "cover": "https://user-images.githubusercontent.com/83136741/254733337-9eb9dd95-d2a3-41b7-877f-33d25e158d42.png",
+        "cover": 0,
         "website":"https://boepartners.com",
         "github": "https://github.com/camilasandovals/boe_app",
         "features": ["Secure user registration and login system using bcrypt for password hashing.", 
@@ -18,7 +18,7 @@
         "name":"Medications Tracker",
         "type": "Full-Stack Development",
         "skills": ["React", "HTML/CSS", "mySQL", "AWS" ,"JavaScript", "Express", "NodeJS", "Bootstrap", "Mongoose"],
-        "cover": "https://user-images.githubusercontent.com/83136741/241110923-c0b23e04-5786-45ae-a39d-42c33021cf10.png",
+        "cover": 1,
         "website":"https://zerinlabs.com",
         "github": "https://github.com/camilasandovals/zerin-labs-web",
         "features": [
@@ -35,7 +35,7 @@
         "name":"AI Therapy",
         "type": "Full-Stack Development",
         "skills": ["React" ,"ChatGPT", "NodeJS", "Express", "HTML/CSS", "JavaScript", "Express"],
-        "cover": "https://github.com/camilasandovals/chatgpt-web-app/raw/main/public/images/screen2.png",
+        "cover": 2,
         "website":"",
         "github": "https://github.com/camilasandovals/chatgpt-web-app",
         "features": [
@@ -52,7 +52,7 @@
         "name":"Tasks Manager",
         "type": "Full-Stack Development",
         "skills": ["React", "AntDesign", "NodeJS", "Firebase", "JavaScript", "HTML/CSS", "Express", "GCP"],
-        "cover": "https://github.com/camilasandovals/much-todo-web/raw/main/public/images/screen.png",
+        "cover": 3,
         "website":"https://much-todo-cs.web.app",
         "github": "https://github.com/camilasandovals/much-todo-web",
         "features": [
@@ -68,7 +68,7 @@
         "name":"Musician Portfolio",
         "type": "Front-End Development",
         "skills": ["HTML5", "CSS3", "JavaScript"],
-        "cover": "https://github.com/camilasandovals/bass-player-web-portfolio/blob/main/src/images/screen1.png?raw=true",
+        "cover": 4,
         "website":"https://camilasandovals.github.io/bass-player-web-portfolio/",
         "github": "https://github.com/camilasandovals/bass-player-web-portfolio/blob/main/README.md",
         "features": [
@@ -85,7 +85,7 @@
         "name":"Quiz App",
         "type": "Front-End Development",
         "skills": ["React", "HTML/CSS", "JavaScript" , "Bootstrap"],
-        "cover": "https://github.com/camilasandovals/quiz-app/raw/main/public/images/screen.png",
+        "cover": 5,
         "website":"https://quiz-app-camila.web.app",
         "github": "https://github.com/camilasandovals/quiz-app",
         "features": [
@@ -102,7 +102,7 @@
         "name":"Wine Catalog",
         "type": "Front-End Development",
         "skills": ["React", "JavaScript", "HTML5", "JSON" ],
-        "cover": "https://user-images.githubusercontent.com/83136741/232942198-d80a603d-7558-44f1-99f3-e39a55707feb.png",
+        "cover": 6,
         "website":"https://wine-list-cs.web.app",
         "github": "https://github.com/camilasandovals/wine-list",
         "features": [
