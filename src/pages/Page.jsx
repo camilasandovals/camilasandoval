@@ -5,6 +5,7 @@ import About from "./About/About";
 import Projets from "./Projects/Projects";
 import Skills from "./Skills/Skills";
 import Certificates from "./Certificates/Certificates";
+import Videos from "./Videos/Videos";
 export default function Page() {
     return(
         <AppLayout>
@@ -12,6 +13,7 @@ export default function Page() {
             <About />
             <Projets />
             <Skills />
+            <Videos />
             <Certificates />
         </AppLayout>
     )

@@ -1,32 +1,36 @@
-import React, { useState } from "react";
-import { Container, Row, Button } from "react-bootstrap";
+import React, { useState, useEffect } from "react";
+import { Container, Row, Form } from "react-bootstrap";
 import Panel from "./Panel";
 import data from "../../data/portfolio.json";
 import "./Projects.css";
 
 export default function Projects() {
-  const [numProjectsDisplayed, setNumProjectsDisplayed] = useState(3);
+  const [selectedType, setSelectedType] = useState("Web Development");
+  const [filteredProjects, setFilteredProjects] = useState([]);
 
-  const loadMoreProjects = () => {
-    setNumProjectsDisplayed(prevNum => prevNum + 5);
-  };
+  useEffect(() => {
+    const filtered = data.filter(project => project.type === selectedType);
+    setFilteredProjects(filtered);
+  }, [selectedType]);
 
   return (
     <Container id="projects">
       <h1>Projects</h1>
       <Row className="m-4 justify-content-center">
-          <h4>Each project is a unique piece of development</h4>
-          {data.slice(0, numProjectsDisplayed).map((element) =>
-            element ? <Panel data={element} /> : <p>Loading...</p>
-          )}
-          {numProjectsDisplayed < data.length && (
-            <div>
-            <button className="load-more" onClick={loadMoreProjects}>
-              Load More
-            </button>
-            </div>
-            
-          )}
+        <div className="filter-section mb-4">
+          <Form.Select 
+            value={selectedType}
+            onChange={(e) => setSelectedType(e.target.value)}
+            style={{ maxWidth: "300px", margin: "0 auto" }}
+          >
+            <option value="Web Development">Web Development</option>
+            <option value="Machine Learning">Machine Learning</option>
+          </Form.Select>
+        </div>
+
+        {filteredProjects.map((element) =>
+          element ? <Panel key={element.id} data={element} /> : <p>Loading...</p>
+        )}
       </Row>
     </Container>
   );

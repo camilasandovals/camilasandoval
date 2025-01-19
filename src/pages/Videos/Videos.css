@@ -1,0 +1,24 @@
+.videos-container {
+    padding-top: 2.5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container {
+    padding-bottom: 20px;
+}
+
+.video-wrapper {
+    filter: drop-shadow(1px 1px 8px rgba(172, 175, 255, 0.919));
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.video-wrapper iframe {
+    display: block;
+    border-radius: 10px;
+}
+
+.videos {
+  padding-top: 4rem;
+}

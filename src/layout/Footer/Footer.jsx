@@ -14,7 +14,7 @@ export default function Footer() {
                     <a href="https://www.linkedin.com/in/camilasandovals/" target="_blank" style={{ marginRight: '2%' }}>
                     <Linkedin size={18} color="grey" />
                     </a>
-                    <a href="https://www.instagram.com/foreigncoders/" target="_blank">
+                    <a href="mailto:csandoval.eng@gmail.com" target="_blank">
                     <EnvelopeFill size={18} color="grey"/>
                     </a>
                         

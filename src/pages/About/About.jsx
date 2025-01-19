@@ -13,11 +13,17 @@ export default function About() {
             
             <Col  className="about-text-container" lg={5} md={12}  xs={11}>
                 <h3 style={{ color: "#FF479A" }}>Breaking Code, Building Success</h3>
-                 {/* <h3 style={{ color: "#FF479A" }}>A Web Developer based in the US</h3> */}
-                 <h4>A Transnational Journey in Tech</h4> 
-                 <p>Born in Colombia, later moved to Florida in pursuit of a better life and opportunities. My academic background includes a bachelor's degree in Engineering and a scholarship-awarded in Software Engineering at a bootcamp in Boca Raton. This educational journey ignited my passion for web development.</p>
-                <p>The past two years have seen me involved in the development of robust web applications for startups, with the most recent year spent thriving as a Front-End Developer. The work I've done has not only enhanced my skills but has also significantly boosted the businesses I've worked with, leading to notable increases in monthly income.</p>
-                <p>Collaboration, learning, and project creation with others are activities I thrive in and thoroughly enjoy. 🚀</p>
+                <h4>My Journey in Tech...</h4>
+                    <p>
+                    I was born in Colombia and later moved to Florida. My academic journey includes earning a bachelor's degree in Biomedical Engineering and receiving a scholarship to study Software Engineering at a bootcamp in Boca Raton, Florida.
+                    </p>
+                    <p>
+                    Over the past three years, I’ve been developing robust web applications for startups, working on freelance projects, and delivering courses and presentations to students and professionals about the tech industry.
+                    </p>
+                    <p>
+                    I thrive in collaborative environments, love learning new things, and enjoy giving back to my community 🙌🏻
+                    </p>
+
                 <div className="icons-container">
                     <a  href="https://github.com/camilasandovals" target="_blank" style={{ marginRight: "10%" }}>
                     <Github className="icon" size={38} color="#6b0080" />
@@ -25,7 +31,7 @@ export default function About() {
                     <a  href="https://www.linkedin.com/in/camilasandovals/" target="_blank" style={{ marginRight: '10%' }}>
                     <Linkedin  className="icon" size={38} color="#6b0080" />
                     </a>
-                    <a  href="https://www.instagram.com/foreigncoders/" target="_blank" style={{ marginRight: '10%' }}>
+                    <a  href="mailto:csandoval.eng@gmail.com" target="_blank" style={{ marginRight: '10%' }}>
                     <EnvelopeFill className="icon" size={38} color="#6b0080"/>
                     </a>
                         {/* <Button style={{marginLeft:80 }} variant="primary">Hire me</Button> */}
